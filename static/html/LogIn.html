@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/logIn.js"></script>
+</head>
+<body>
+    <h1>Email:</h1>
+    <input id="inp1" />
+    <h1>Password:</h1>
+    <input id="inp2" />
+    <br />
+    <!-- onclick="get()" -->
+    <button id="connect">Connect</button>
+    <br />
+    <br />
+
+    <button  onclick="display()"> New User</button>
+    <div id="newUser" style="display:none">
+        <h1>Email:</h1>
+        <input id="email" />
+        <h1>Password:</h1>
+        <input id="password" />
+        <br />
+        <h1>Name</h1>
+        <input id="name" />
+        <h1>city</h1>
+        <input id="city" />
+        <h1>street</h1>
+        <input id="street" />
+        <br />
+        <br />
+        <button id="connectPost" onclick="post()">connect</button>
+    </div>
+    
+
+</body>
+</html>
